@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    getDataAndPlot();
+    getbarAndPlot();
 });
 
-function getDataAndPlot() {
+function getbarAndPlot() {
     var margin = {top: 20, right: 30, bottom: 40, left:80},
     width = 460 - margin.left - margin.right,
     height = 800 - margin.top - margin.bottom;
